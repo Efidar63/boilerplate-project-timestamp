@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>URL Shortener Microservice | freeCodeCamp.org</title>
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://cdn.freecodecamp.org/universal/favicons/favicon-16x16.png"
-    />
-    <link href="/public/style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <h1>URL Shortener Microservice</h1>
-    <main>
-      <section>
+   <head>
+      <title>URL Shortener</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+        <h2>URL Shortener Microservice</h2>
+
         <form action="api/shorturl" method="POST">
-          <fieldset>
-            <legend>URL Shortener</legend>
-            <label for="url_input">URL:</label>
-            <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
-            <input type="submit" value="POST URL" />
-          </fieldset>
+          <label for="url_input">URL to be shortened</label>
+          <input id="url_input" type="text" name="url" value="https://www.freecodecamp.org">
+          <input type="submit" value="Shorten">
         </form>
-      </section>
-    </main>
-    <footer>
-      <p>By <a href="https://www.freecodecamp.org/">freeCodeCamp</a></p>
-    </footer>
-  </body>
+        <p>
+          by <a href="https://nesh.gq">Ganesh H</a>
+        </p>
+   </body>
+
+
 </html>
